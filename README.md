@@ -1,5 +1,5 @@
 # Sidon
-[![ArXiv](https://img.shields.io/badge/arXiv-coming%20soon-b31b1b.svg)](https://arxiv.org/abs/TODO)
+[![ArXiv](https://img.shields.io/badge/arXiv-2509.17052-b31b1b.svg)](https://arxiv.org/abs/2509.17052)
 [![Gradio Demo](https://img.shields.io/badge/Gradio-demo-orange.svg)](https://huggingface.co/spaces/sarulab-speech/sidon_demo_beta)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-demo)](https://huggingface.co/spaces/Wataru/SidonSamples)
 
