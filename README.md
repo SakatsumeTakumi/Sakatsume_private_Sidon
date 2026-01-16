@@ -6,7 +6,7 @@
 
 Large-scale text-to-speech (TTS) systems are bottlenecked by the scarcity of clean, multilingual recordings. Sidon tackles this by pairing a fast, open-source speech restoration model with reproducible tooling so researchers can turn noisy in-the-wild corpora into studio-quality datasets that scale across dozens of languages.
 
-Sidon consists of two stages: a w2v-BERT 2.0 feature predictor finetuned to cleanse representations from degraded speech, and a vocoder trained to synthesise restored waveforms from those features. The stack achieves restoration quality comparable to Miipher—Google's internal speech restoration pipeline—while running up to 3,390× faster than real time on a single GPU. We also observe that training downstream TTS models on Sidon-cleansed automatic speech recognition corpora improves zero-shot synthesis quality. This repository releases the code, configs, and models needed to reproduce Sidon's dataset cleansing workflow for the community.
+Sidon consists of two stages: a w2v-BERT 2.0 feature predictor finetuned to cleanse representations from degraded speech, and a vocoder trained to synthesise restored waveforms from those features. The stack achieves restoration quality comparable to Miipher—Google's internal speech restoration pipeline—while running up to 500× faster than real time on a single GPU. We also observe that training downstream TTS models on Sidon-cleansed automatic speech recognition corpora improves zero-shot synthesis quality. This repository releases the code, configs, and models needed to reproduce Sidon's dataset cleansing workflow for the community.
 
 ## Requirements
 
